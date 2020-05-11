@@ -1,6 +1,4 @@
-  GNU nano 2.7.4                                                                                                                             File: insertdata.js                                                                                                                              Modified  
-
-======================var mqtt = require('mqtt'); //https://www.npmjs.com/package/mqtt
+var mqtt = require('mqtt'); //https://www.npmjs.com/package/mqtt
 var Topic = '#'; //subscribe to all topics
 var Broker_URL = ('mqtt://172.18.0.4')//MQTT_BROKER_URL';
 var Database_URL = '172.18.0.3';
